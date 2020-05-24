@@ -1,7 +1,7 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
-
+import saveTimer from './command'
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
@@ -11,7 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
 	// This line of code will only be executed once when your extension is activated
 
 	vscode.window.showInformationMessage(`You have ${duration} minutes to finish coding`);
-
+	
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with registerCommand
 	// The commandId parameter must match the command field in package.json
@@ -19,7 +19,8 @@ export function activate(context: vscode.ExtensionContext) {
 
 	mainTimer=setTimeout(()=>{
 		vscode.window.showWarningMessage("VS CODE is going to close your workspace");
-	},60000)
+		saveTimer();
+	},duration*60000)
 	
 }
 

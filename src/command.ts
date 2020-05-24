@@ -4,7 +4,17 @@ export default function saveTimer(){
         saveFiles();
     },10000)
 }
+function onSave(){
+    
+    vscode.commands.executeCommand('workbench.action.closeAllEditors').then(()=>vscode.commands.executeCommand('workbench.action.closeWindow'));
+    
+}
 function saveFiles() {
-    vscode.commands.executeCommand('vscode.workspace.saveAll');
+    vscode.commands.executeCommand('workbench.action.files.saveAll').then(()=>  //save all affects untitled files
+    {
+       onSave();
+    },()=>{
+        console.log("Not Saved");
+    });
     
   }

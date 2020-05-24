@@ -21,7 +21,7 @@
 			  "enough-coding.duration": {
 				"type": "number",
 				"scope": "application",
-				"default": 1,
+				"default": 0.5,
 				"description": "Duration in minutes after which all open files will be saved and closed automatically after a warning"
 			  }
 			 
