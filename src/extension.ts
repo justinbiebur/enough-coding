@@ -15,11 +15,12 @@ export function activate(context: vscode.ExtensionContext) {
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with registerCommand
 	// The commandId parameter must match the command field in package.json
-	
+	let mainTimer;
 
-	setTimeout(()=>{
+	mainTimer=setTimeout(()=>{
 		vscode.window.showWarningMessage("VS CODE is going to close your workspace");
 	},60000)
+	
 }
 
 // this method is called when your extension is deactivated
