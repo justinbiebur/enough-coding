@@ -14,12 +14,19 @@
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "enough-coding.helloWorld",
-				"title": "Hello World"
+		
+		"configuration": {
+			"title": "Enough Coding",
+			"properties": {
+			  "enough-coding.duration": {
+				"type": "number",
+				"default": 10,
+				"description": "Duration in minutes after which all open files will be saved and closed automatically after a warning"
+			  }
+			 
 			}
-		]
+		}
+		 
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
