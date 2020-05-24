@@ -1,6 +1,6 @@
 # enough-coding README
 
-This is the README for your extension "enough-coding". After writing up a brief description, we recommend including the following sections.
+Enough coding, now its time to stop!
 
 ## Features
 
