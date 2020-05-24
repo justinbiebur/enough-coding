@@ -18,8 +18,8 @@ export function activate(context: vscode.ExtensionContext) {
 	
 
 	setTimeout(()=>{
-
-	},duration*100)
+		vscode.window.showWarningMessage("VS CODE is going to close your workspace");
+	},60000)
 }
 
 // this method is called when your extension is deactivated
