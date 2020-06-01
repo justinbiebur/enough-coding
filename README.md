@@ -2,6 +2,16 @@
 
 Enough coding, now its time to stop!
 
+[![VSCode Marketplace](https://badgen.net/badge/marketplace/v0.0.2/:color?icon=visualstudio)](https://marketplace.visualstudio.com/items?itemName=deb.enough-coding)
+
+
+[![Latest Release](https://badgen.net/github/release/justinbiebur/enough-coding)](https://marketplace.visualstudio.com/items?itemName=deb.enough-coding)
+
+
+[![License](https://badgen.net/badge/license/MIT/blue)](LICENCE)
+
+
+
 ## Description
 
 Use this extension if you want to set a time imit to your coding sessions. If you lose track of time while coding, this extension is for you. It will remind you the time limit you have set for a session, and when the limit is reached it will automatically save all files and close the window.
@@ -16,7 +26,8 @@ Use this extension if you want to set a time imit to your coding sessions. If yo
 
 Timeout Warning 
 
-![After Timeout](./images/ss2.PNG) 
+![After Timeout](./images/ss2.PNG
+.v) 
 
 Prompt to save file for files created using File-->New File
 
