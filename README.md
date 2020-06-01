@@ -12,14 +12,17 @@ Use this extension if you want to set a time imit to your coding sessions. If yo
 * Change timeout duration 
 * Saves all files 
 
-![Extension Info](./images/ss.png)
+![Extension Info](./images/ss.PNG)
 
-![After Timeout](./images/ss2.png) 
+Timeout Warning 
+
+![After Timeout](./images/ss2.PNG) 
 
 Prompt to save file for files created using File-->New File
 
-![After Timeout](./images/ss3.png) 
+![New File](./images/ss3.png) 
 
+> For other kinds of open files, it will save them automatically.
 
 
 ## Extension Settings
@@ -31,4 +34,6 @@ This extension contributes the following settings:
 * `enough-coding.active`: enable/disable this extension
 * `enough-coding.duration`: set timeout duration in minutes (defaults to 10)
 
+## LICENSE
+This extension is licensed under the [MIT License](LICENSE)
 
