@@ -1,4 +1,4 @@
-# enough-coding README
+# enough-coding VS Code extension
 
 Enough coding, now its time to stop!
 
@@ -26,8 +26,7 @@ Use this extension if you want to set a time imit to your coding sessions. If yo
 
 Timeout Warning 
 
-![After Timeout](./images/ss2.PNG
-.v) 
+![After Timeout](./images/ss2.PNG) 
 
 Prompt to save file for files created using File-->New File
 
