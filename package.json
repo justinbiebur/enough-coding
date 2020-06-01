@@ -39,6 +39,7 @@
 	  "url": "https://github.com/justinbiebur/enough-coding/issues",
 	  "email": "db.debjyotibanerjee@gmail.com"
 	},
+	"license": "MIT",
 	"contributes": {
 		
 		"configuration": {
