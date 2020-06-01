@@ -3,16 +3,42 @@
 	"displayName": "enough coding",
 	"description": "Enough coding, now it's time to stop! ",
 	"version": "0.0.1",
+	"author": {
+		"name": "Deb",
+		"email": "db.debjyotibanerjee@gmail.com",
+		"url": "http://twitter.com/thisisdebjyoti"
+	  },
 	"engines": {
 		"vscode": "^1.45.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"keywords": [
+		"timer",
+		"productivity",
+		"coding",
+		"enough",
+		"coding timer",
+		"self control"
+	  ],
+	  "galleryBanner": {
+		"color": "#41205f",
+		"theme": "dark"
+	  },
 	"activationEvents": [
 		"*"
 	],
 	"main": "./out/extension.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/justinbieber/enough-coding.git"
+	  },
+	"icon": "./images/icon.png",
+	"bugs": {
+	  "url": "https://github.com/justinbiebur/enough-coding/issues",
+	  "email": "db.debjyotibanerjee@gmail.com"
+	},
 	"contributes": {
 		
 		"configuration": {
@@ -23,7 +49,14 @@
 				"scope": "application",
 				"default": 0.5,
 				"description": "Duration in minutes after which all open files will be saved and closed automatically after a warning"
+			  },
+			  "enough-coding.active": {
+				"type": "boolean",
+				"scope": "application",
+				"default": true,
+				"description": "Turn the extension on or off"
 			  }
+
 			 
 			}
 		}

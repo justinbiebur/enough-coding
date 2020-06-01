@@ -5,7 +5,10 @@ import saveTimer from './command'
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
-	const duration=<number>vscode.workspace.getConfiguration('enough-coding').get('duration')
+	const active=<boolean>vscode.workspace.getConfiguration('enough-coding').get('active');
+	if(active){
+	const duration=<number>vscode.workspace.getConfiguration('enough-coding').get('duration');
+	
 	console.log(duration)
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
@@ -21,7 +24,10 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showWarningMessage("VS CODE is going to close your workspace");
 		saveTimer();
 	},duration*60000)
-	
+}
+else{
+	vscode.window.showInformationMessage(`You have not enabled timer for your coding sessions`);
+}
 }
 
 // this method is called when your extension is deactivated
