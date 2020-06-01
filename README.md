@@ -2,7 +2,7 @@
 
 Enough coding, now its time to stop!
 
-[![VSCode Marketplace](https://badgen.net/badge/marketplace/v0.0.2/:color?icon=visualstudio)](https://marketplace.visualstudio.com/items?itemName=deb.enough-coding)
+[![VSCode Marketplace](https://badgen.net/badge/marketplace/v0.0.3/:color?icon=visualstudio)](https://marketplace.visualstudio.com/items?itemName=deb.enough-coding)
 
 
 [![Latest Release](https://badgen.net/github/release/justinbiebur/enough-coding)](https://marketplace.visualstudio.com/items?itemName=deb.enough-coding)
